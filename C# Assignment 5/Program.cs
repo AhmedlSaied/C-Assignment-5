@@ -7,9 +7,11 @@
            // var calculator = new DayCalculator();
             //calculator.Run();
 
-            var app = new ArrayStatisticsUI();
-            app.Run();
+            //var app = new ArrayStatisticsUI();
+            //app.Run();
 
+            var app = new GradesMatrixUI();
+            app.Run();
         }
         }
     }
