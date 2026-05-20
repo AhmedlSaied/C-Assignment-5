@@ -13,8 +13,11 @@
             //var app = new GradesMatrixUI();
             //app.Run();
 
-            var calcApp = new CalculatorUI();
-            calcApp.Run();
+            //var calcApp = new CalculatorUI();
+            //calcApp.Run();
+
+            var circleApp = new CircleUI();
+            circleApp.Run();
         }
         }
     }
