@@ -4,15 +4,9 @@
     {
         static void Main(string[] args)
         {
-            if (!int.TryParse(Console.ReadLine(),out int dayNumber))
-            {
-                return EnDays days = dayNumber;
-                {
-                    EnDays.SATURDAY => "Weekend",
-                    EnDays.MONDAY => "Workday",
-                    // ...
-                };
-            }
+            var calculator = new DayCalculator();
+            calculator.Run();
+        }
         }
     }
-}
+
