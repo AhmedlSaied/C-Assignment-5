@@ -4,8 +4,12 @@
     {
         static void Main(string[] args)
         {
-            var calculator = new DayCalculator();
-            calculator.Run();
+           // var calculator = new DayCalculator();
+            //calculator.Run();
+
+            var app = new ArrayStatisticsUI();
+            app.Run();
+
         }
         }
     }
